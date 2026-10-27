@@ -56,3 +56,16 @@
 .case-detail-email{border-color:#ffffff55;background:transparent;color:#fff}
 @media(max-width:900px){.case-detail-hero-grid{gap:25px}.case-detail-art{transform:scale(.92)}.case-detail-layout{grid-template-columns:220px minmax(0,1fr);gap:35px}}
 @media(max-width:700px){.case-detail-hero{padding:45px 0 30px}.case-detail-hero-grid{grid-template-columns:1fr;gap:0}.case-detail-hero h1{font-size:clamp(39px,10vw,52px)}.case-detail-lede{font-size:13px}.case-detail-art{height:260px;transform:scale(.9);margin:-2px -12px -8px}.case-draft-wrap{padding-top:14px}.case-draft-notice{font-size:10px;padding:12px}.case-detail-body{padding-top:38px}.case-detail-layout{grid-template-columns:1fr;gap:35px}.case-detail-sidebar{position:static}.case-story-section{padding-bottom:30px;margin-bottom:29px}.case-story-section h2{font-size:27px}.case-story-section p:not(.case-step){font-size:12px}.evidence-grid{grid-template-columns:1fr}.case-next-step{padding:23px}.case-next-step h2{font-size:24px}}
+
+/* Executive case-study narrative components */
+.case-insight{border-left:3px solid #4c8ab8;padding:16px 18px;background:#edf4f8;border-radius:0 7px 7px 0;margin:22px 0 0}
+.case-insight span{display:block;font-size:8px;letter-spacing:1.4px;font-weight:700;color:#527b99;margin-bottom:7px}
+.case-insight strong{display:block;font-family:var(--serif);font-size:14px;line-height:1.7;color:#23425a}
+.case-insight-muted{background:#f2f5f7;border-left-color:#9aafbf}
+.case-insight-muted strong{font-family:var(--sans);font-size:11px;font-weight:600;line-height:1.8}
+.execution-steps{display:grid;gap:0;margin:23px 0}
+.execution-step{display:grid;grid-template-columns:36px 1fr;gap:13px;padding:16px 0;border-top:1px solid #e0e7ed}
+.execution-step:last-child{border-bottom:1px solid #e0e7ed}
+.execution-step>span{display:grid;place-items:center;width:30px;height:30px;background:#e5eff6;border-radius:8px;font-family:var(--serif);font-size:11px;font-weight:800;color:#2f6f9d}
+.execution-step strong{display:block;color:#24445d;font-family:var(--serif);font-size:14px;margin-bottom:4px}
+.case-story-section .execution-step p{font-size:11px;line-height:1.8;margin:0}
